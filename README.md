@@ -1,2 +1,2 @@
-# proyectos_arduino
-compilado de códigos arduino
+# Proyectos arduino
+Compilado de códigos arduino. Con diferentes funcionalidades, sensores y actuadores.

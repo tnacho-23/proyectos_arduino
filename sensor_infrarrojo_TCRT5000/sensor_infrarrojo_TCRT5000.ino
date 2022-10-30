@@ -1,13 +1,13 @@
 
-int infr = A0;
+int infr = 11;
 void setup() {
   Serial.begin(9600);
   pinMode(infr, INPUT);
 }
 
 void loop() {
-  int read = analogRead(infr);
+  int read = digitalRead(infr);
   Serial.print(read);
   Serial.print(" ");
-  delay(2000);
+  delay(300);
 }
